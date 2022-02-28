@@ -3,8 +3,9 @@
 ### 환경변수
 |Variable|Description|
 |---|---|
-| SERVER_PORT | GatewayServer 의 포트번호 |
-| SERVER_ADDRESS | GatewayServer 의 호스트이름 혹은 ip주소 |
+| GATEWAY_SERVER_PORT | GatewayServer 의 포트번호 |
+| GATEWAY_SERVER_ADDRESS | GatewayServer 의 호스트이름 혹은 ip주소 |
 | EUREKA_SERVER_PORT | EurekaServer 의 포트번호 |
 | EUREKA_SERVER_ADDRESS | EurekaServer 의 호스트이름 혹은 ip주소 |
+| EUREKA_SERVER_DEFAULT_ZONE | EurekaServer Default Zone |
 | CONFIG_SERVER_URL | ConfigServer 의 URL |
