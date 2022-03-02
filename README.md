@@ -9,3 +9,7 @@
 | EUREKA_SERVER_ADDRESS | EurekaServer 의 호스트이름 혹은 ip주소 |
 | EUREKA_SERVER_DEFAULT_ZONE | EurekaServer Default Zone |
 | CONFIG_SERVER_URL | ConfigServer 의 URL |
+| MQ_SERVER_ADDRESS | MessageQueue 서버의 호스트이름 혹은 ip주소 |
+| MQ_SERVER_PORT | MessageQueue 서버의 포트번호 |
+| MQ_SERVER_USER_NAME | MessageQueue 서버의 Username |
+| MQ_SERVER_PASSWORD | MessageQueue 서버의 Password |
