@@ -2,14 +2,6 @@ server:
   port: ${GATEWAY_SERVER_PORT}
   address: ${GATEWAY_SERVER_ADDRESS}
   shutdown: graceful
-eureka:
-  instance:
-    hostname: ${EUREKA_SERVER_ADDRESS}
-  client:
-    register-with-eureka: true
-    fetch-registry: true
-    service-url:
-      defaultZone: ${EUREKA_SERVER_DEFAULT_ZONE}
 spring:
   application.name: gateway-server
   config:
