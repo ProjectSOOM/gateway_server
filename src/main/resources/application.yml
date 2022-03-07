@@ -19,3 +19,11 @@ management:
     web:
       exposure:
         include: refresh
+eureka:
+  instance:
+    hostname: infra.smup.xyz
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://infra.smup.xyz:10010/eureka/
