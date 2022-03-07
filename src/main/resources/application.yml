@@ -21,9 +21,9 @@ management:
         include: refresh
 eureka:
   instance:
-    hostname: infra.smup.xyz
+    hostname: ${EUREKA_SERVER_HOST_NAME}
   client:
     register-with-eureka: true
     fetch-registry: true
     service-url:
-      defaultZone: http://infra.smup.xyz:10010/eureka/
+      defaultZone: ${EUREKA_SERVER_DEFAULT_ZONE}
