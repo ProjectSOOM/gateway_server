@@ -21,7 +21,7 @@ management:
         include: refresh
 eureka:
   instance:
-    hostname: ${EUREKA_SERVER_HOST_NAME}
+    hostname: ${EUREKA_SERVER_ADDRESS}
   client:
     register-with-eureka: true
     fetch-registry: true
